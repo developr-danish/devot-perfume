@@ -27,7 +27,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 
-     <style>
+     <style> 
+     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+     *{
+        font-family: "Josefin Sans", sans-serif;
+     }
         .form textarea{
             height: 150px !important;
             resize: none;
@@ -46,7 +50,7 @@
                <ul class="nav mt-4 justify-content-center">
                 <li class="nav-item">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search this blog">
+                        <input type="text" class="form-control" placeholder="Search">
                         <div class="input-group-append">
                           <button class="btn btn-secondary" type="button">
                             <i class="fa fa-search"></i>
@@ -64,21 +68,47 @@
             </div>
         </div>
     </div>
+
+    <div class="navbar-part">
+        <div class="nav-li">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">UNISEX</a></li>
+            <li><a href="#">BEST SELLER</a></li>
+            <li><a href="#">PERFUME STORY</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+      </div>
     
     <div class="container">
         <h2 class="text-center text-secondary pt-4">You Can Reach Us With the Help Of These Details.</h2>
         <div class="row p-3">
 
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 p-5 contact-form">
+            <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 p-5 contact-form">
                 <form action="" class="form">
-                    <input type="text" placeholder="Enter Name" class="form-control mb-3" name="" id="">
-                    <input type="email" placeholder="Enter Email" class="form-control mb-3" name="" id="">
-                    <input type="tel" placeholder="Enter Phone Number" class="form-control mb-3" name="" id="">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="text" placeholder="Enter Name" class="form-control mb-3 py-4" name="" id="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="email" placeholder="Enter Email" class="form-control mb-3 py-4" name="" id="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="tel" placeholder="Enter Phone Number" class="form-control mb-3 py-4" name="" id="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <input type="text" placeholder="Enter Subject" class="form-control mb-3 py-4" name="" id="">
+                        </div>
+                    </div>
                     <textarea name="" class="form-control mb-3" id="" placeholder="Message" cols="30" rows="10"></textarea>
-                    <button class="btn btn-light" type="submit">Send Message</button>
+                    <button class="btn btn-light py-2" type="submit">Send Message</button>
                 </form>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 p-2">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 p-2">
                 <table  class="table table-borderless contact-table ">
                     <thead>
                         <th><h2>Contact Us</h2></th>
@@ -103,7 +133,7 @@
     </div>
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12  ">
-            <h2 class="text-center  ">You can Find Us On Map</h2>
+            <h2 class="text-center py-5">You can Find Us On Map</h2>
             <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5051.280739282094!2d80.35610339756494!3d26.462340538978243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c47e4fd560cf1%3A0xfe91b5b9a2c7543b!2sEsellacharya!5e0!3m2!1sen!2sin!4v1708420138930!5m2!1sen!2sin" width="100%;" height="450px;" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>

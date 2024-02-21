@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
  *{
     padding: 0px;
     margin: 0px;
-    font-family: "Playfair Display", serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
   /* navbat part start fron head */
@@ -38,11 +38,10 @@
 
   /* slider part end from hear */
   #slider-part{
-    height: 80vh !important;
+    height: 77vh !important;
     overflow: hidden;
   }
   #slider-part .carousel-item img{
-    width: 100wv;
     height: 100%; 
     object-fit: cover !important;
     object-position: center !important;
@@ -57,6 +56,9 @@
 .sec{
     text-align: center;
     margin: 50px;
+}
+.para a{
+  color: black !important;
 }
 .product{
   border-radius: 7px;
