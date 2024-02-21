@@ -38,7 +38,6 @@
 
   /* slider part end from hear */
   #slider-part{
-    height: 77vh !important;
     overflow: hidden;
   }
   #slider-part .carousel-item img{
@@ -64,7 +63,7 @@
   border-radius: 7px;
 }
 .para{
-  height: 400px !important;
+  height: 100% !important;
   overflow: hidden;
 }
 .para img{
