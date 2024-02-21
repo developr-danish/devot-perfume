@@ -48,6 +48,9 @@
   .nav-li ul a:hover::after{
     width: 100%;
   }
+  .nav-li ul a:hover{
+    color: #e4dede;
+  }
   /* navbat part end from head */
 
   /* slider part end from hear */
