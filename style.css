@@ -1,0 +1,237 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    font-family:sans-serif
+}
+
+  /* navbat part start fron head */
+  .navbar-part{
+    width: 100%;
+    height:50px;
+    background-color: #000000;
+    display: flex;
+    align-items: end;
+    padding: 0vw 5vw;
+    color: white;
+  }
+  .nav-li{
+    display: flex;
+    align-items:center ;
+  }
+  .nav-li ul{
+    display: flex;
+    text-decoration: none;
+  }
+  .nav-li ul li{
+    list-style: none
+  }
+  .nav-li ul a{
+    display:flex ;
+    gap: 10 !important;
+    padding:0px 18px !important;
+    font-size: 13px !important;
+    color: white;
+  }
+  /* navbat part end from head */
+
+  /* slider part end from hear */
+  #slider-part{
+    height: 80vh !important;
+    overflow: hidden;
+  }
+  #slider-part .carousel-item img{
+    width: 100wv;
+    height: 100%; 
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+  /* slider part end from hear */
+
+
+.image img{
+    height: 75px;
+    width: 75px;
+}
+.sec{
+    text-align: center;
+    margin: 50px;
+}
+.product{
+  border-radius: 7px;
+}
+.para{
+  height: 400px !important;
+  overflow: hidden;
+}
+.para img{
+  height: 350px;
+  object-fit: cover;
+}
+.para p{
+  padding-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cart-design h5{
+  font-size: 20px;
+  text-align: center;
+}
+.cart-design h4{
+  text-align: center;
+}
+.price{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.price p{
+  color: rgb(14, 87, 14);
+}
+.stars{
+  display: flex;
+  color: #f5d42f;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.gtco-testimonials {
+  position: relative;
+  margin: 80px;
+}
+.gtco-testimonials h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.gtco-testimonials .owl-stage-outer {
+  padding: 30px 0;
+}
+.gtco-testimonials .owl-nav {
+  display: none;
+}
+.gtco-testimonials .owl-dots {
+  text-align: center;
+}
+.gtco-testimonials .owl-dots span {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  border: 2px solid #01b0f8;
+  margin: 0 5px;
+}
+.gtco-testimonials .owl-dots .active {
+  box-shadow: none;
+}
+.gtco-testimonials .owl-dots .active span {
+  background: #01b0f8;
+  box-shadow: none;
+  height: 12px;
+  width: 12px;
+  margin-bottom: -1px;
+}
+.gtco-testimonials .card {
+  background: #fff;
+  box-shadow: 0 8px 30px -7px #c9dff0;
+  margin: 0 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 0;
+}
+.gtco-testimonials .card .card-img-top {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  box-shadow: 0 8px 20px -4px #95abbb;
+  width: 100px;
+  height: 100px;
+}
+.gtco-testimonials .card h5 {
+  color: #01b0f8;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.gtco-testimonials .card h5 span {
+  font-size: 18px;
+  color: #666666;
+}
+.gtco-testimonials .card p {
+  font-size: 18px;
+  color: #555;
+  padding-bottom: 15px;
+}
+.gtco-testimonials .active {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.gtco-testimonials .center {
+  opacity: 1;
+}
+.gtco-testimonials .center h5 {
+  font-size: 24px;
+}
+.gtco-testimonials .center h5 span {
+  font-size: 20px;
+}
+.gtco-testimonials .center .card-img-top {
+  max-width: 100%;
+  height: 120px;
+  width: 120px;
+}
+@media (max-width: 767px) {
+  .gtco-testimonials {
+    margin-top: 20px;
+  }
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  outline: 0;
+}
+.owl-carousel button.owl-dot {
+  outline: 0;
+}
+.sidenav img{
+  height: 20px;
+  width: 20px;
+  padding-right: 3px;
+}
+footer
+{
+  background-color: #000000;
+  padding-top: 20px;
+}
+footer card
+{
+  background-color: transparent!important;
+}
+footer i
+{
+  font-size: 2rem;
+  color: rgb(29, 28, 28);
+}
+footer i:hover:nth-child(n-1)
+{
+ color: rgb(255, 145, 19);
+ transition: 0.3s;
+}
+footer i:hover:nth-child(n-2)
+{
+  color: rgb(48, 5, 206);
+  transition: 0.3s;
+}
+.contact-table
+{
+  background-color: #f1f1f1ab;
+}
+.contact-table i
+{
+  font-size: 1.4em;
+  color: rgb(29, 28, 28);
+}
+.contact-form
+{
+  background-color: #dddddd;
+  border-radius: 5px;
+}
