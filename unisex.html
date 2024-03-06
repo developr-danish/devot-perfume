@@ -30,30 +30,19 @@
 
 </head>
 <body>
-    <div class="container-fluid sticky-top bg-white p-3 shadow bg-white rounded" id="navbar">
-        <div class="row">
-            <div class="col-lg-4 col-sm-12">
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="index.html"><img src="images/home.png" alt="">Home</a>
-                    <a href="men.html"><img src="images/men.png" alt="">Men</a>
-                    <a href="women.html"><img src="images/women.png" alt="">Women</a>
-                    <a href="unisex.html"><img src="images/unisex.png" alt="">Unisex</a>
-                    <a href="#"><img src="images/blog.png" alt="">Blog</a>
-                    <a href="contact.html"><img src="images/contact.png" alt="">Contact Us</a>
-                  </div>
-                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            </div>
+
+    <div class="container-fluid sticky-top bg-white shadow rounded mx-auto " id="navbar">
+        <div class="row pb-1" id="navbar-bg">
             <div class="col-lg-4 col-sm-12 image d-flex justify-content-center mt-3">
                 <a href="">
                     <img src="images/Devot Logo.png" alt="" id="logo">
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-7 col-sm-12 d-flex justify-content-end ">
                <ul class="nav mt-4 justify-content-center">
                 <li class="nav-item">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search this blog">
+                        <input type="text" class="form-control" placeholder="Search">
                         <div class="input-group-append">
                           <button class="btn btn-secondary" type="button">
                             <i class="fa fa-search"></i>
@@ -71,6 +60,22 @@
             </div>
         </div>
     </div>
+
+    <div class="navbar-part">
+      <div class="nav-li">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="men.html">MEN</a></li>
+          <li><a href="women.html">WOMEN</a></li>
+          <li><a href="unisex.html">UNISEX</a></li>
+          <li><a href="#">BEST SELLER</a></li>
+          <li><a href="#">PERFUME STORY</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="sec">
@@ -175,7 +180,7 @@
             </div>
         </div>
     </div>
-    <footer>
+    <footer id="footer">
         <div class="card text-center">
             <div class="card-header">
                 <img src="images/Devot Logo.png" alt="" width="120" height="100" class="align-items-center">
