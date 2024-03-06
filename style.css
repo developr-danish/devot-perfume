@@ -9,7 +9,9 @@
   background-color: #000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 }
-
+#navbar-bg i{
+  color: white !important;
+}
   /* navbat part start fron head */
   .navbar-part{
     width: 100%;
