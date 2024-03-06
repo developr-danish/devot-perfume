@@ -5,6 +5,10 @@
     margin: 0px;
     font-family: "Josefin Sans", sans-serif;
 }
+#navbar-bg{
+  background-color: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+}
 
   /* navbat part start fron head */
   .navbar-part{
@@ -15,6 +19,10 @@
     align-items: end;
     padding: 0vw 5vw;
     color: white;
+    overflow: scroll;
+  }
+  ::-webkit-scrollbar{
+    display: none;
   }
   .nav-li{
     display: flex;
@@ -254,4 +262,12 @@ footer i:hover:nth-child(n-2)
 {
   background-color: #dddddd;
   border-radius: 5px;
+}
+
+#footer .card{
+  color: #fff;
+  background-color: #000 !important;
+}
+#footer .card i{
+  color: #fff;
 }
