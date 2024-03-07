@@ -12,6 +12,22 @@
 #navbar-bg i{
   color: white !important;
 }
+#navbar .image{
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 760px){
+  #navbar .image {
+    display: flex;
+    justify-content: center;
+  }
+  #nav-form{
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
   /* navbat part start fron head */
   .navbar-part{
     width: 100%;
